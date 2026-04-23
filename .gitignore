@@ -1,0 +1,33 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-electron/
+.vite/
+out/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+appsettings.Development.json
+appsettings.Local.json
+*.env
+*.env.local
+
+# Logs
+*.log
+logs/
