@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build *)",
+      "Bash(dotnet run *)",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Users\\\\mich020\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-mich020-RiderProjects-Alarm-backend\\\\39cda146-ab5a-4547-ac13-19bd9ea58565\\\\tasks\\\\bitneg5z3.output' -Raw\")",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Users\\\\mich020\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-mich020-RiderProjects-Alarm-backend\\\\39cda146-ab5a-4547-ac13-19bd9ea58565\\\\tasks\\\\bitneg5z3.output' -Tail 30\")",
+      "Bash(docker run *)",
+      "PowerShell(docker run *)",
+      "PowerShell(winget *)",
+      "PowerShell(Head 20 *)",
+      "PowerShell(Get-Process *)"
+    ]
+  }
+}
